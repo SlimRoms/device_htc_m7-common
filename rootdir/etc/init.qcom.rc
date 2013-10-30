@@ -29,7 +29,7 @@
 import init.qcom.usb.rc
 
 on init
-export BOOTCLASSPATH ${BOOTCLASSPATH}:/system/framework/htcirlibs.jar
+    export BOOTCLASSPATH ${BOOTCLASSPATH}:/system/framework/htcirlibs.jar
 
     mkdir /mnt/shell/emulated 0700 shell shell
     mkdir /storage/emulated 0555 root root
