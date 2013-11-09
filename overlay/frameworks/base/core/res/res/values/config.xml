@@ -79,8 +79,8 @@
              8 - Search
             16 - App switch
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareKeys">7</integer>
+         config to 7.
+    <integer name="config_deviceHardwareKeys">7</integer> -->
 
     <!-- Default color for notification LED is green. -->
     <color name="config_defaultNotificationColor">#ff00ff00</color>

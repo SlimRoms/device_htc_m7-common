@@ -15,8 +15,8 @@
 -->
 
 <resources>
-    <!-- LED Flashlight -->
+    <!-- LED Flashlight
     <bool name="has_led_flash">true</bool>
     <bool name="config_show_volumeRockerWake">true</bool>
-    <bool name="config_show_touchKeyDur">true</bool>
+    <bool name="config_show_touchKeyDur">true</bool> -->
 </resources>
