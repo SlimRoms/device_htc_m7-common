@@ -124,7 +124,6 @@ lib/libmmcamera_rawchipproc.so
 lib/libmmcamera_rubik.so
 lib/libmmcamera_statsproc31.so
 lib/libmmcamera_wavelet_lib.so
-lib/libmm-color-convertor.so
 lib/libmmipl.so
 lib/libmmjpeg.so
 lib/libmmstillomx.so
@@ -173,6 +172,10 @@ etc/firmware/vidc_1080p.fw
 bin/cir_fw_update
 etc/cir.img
 lib/hw/consumerir.default.so
+
+# Media
+lib/libI420colorconvert.so
+lib/libmm-color-convertor.so
 
 # Modem firmware
 etc/firmware/hcheck.b00
