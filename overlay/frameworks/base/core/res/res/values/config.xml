@@ -271,8 +271,8 @@
              8 - Search
             16 - App switch
          For example, a device with Home, Back and Menu keys would set this
-         config to 7.
-    <integer name="config_deviceHardwareKeys">3</integer> -->
+         config to 7. -->
+    <integer name="config_deviceHardwareKeys">3</integer>
 
     <!-- Force permanent menu key -->
     <bool name="config_force_permanent_menu_key">true</bool>
