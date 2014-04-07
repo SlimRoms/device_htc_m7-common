@@ -219,7 +219,7 @@ lib/libmpl.so
 lib/libmpl_jni.so
 
 # Widevine
-lib/libQSEEComAPI.so
+vendor/lib/libQSEEComAPI.so
 vendor/lib/libwvm.so
 vendor/lib/libWVStreamControlAPI_L1.so
 
