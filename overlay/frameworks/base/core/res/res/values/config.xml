@@ -267,7 +267,12 @@
          config to 7. -->
     <integer name="config_deviceHardwareKeys">3</integer>
 
-    <!-- Force permanent menu key -->
-    <bool name="config_force_permanent_menu_key">true</bool>
+    <!-- Override the default detection behavior for the framework method
+         android.view.ViewConfiguration#hasPermanentMenuKey().
+         Valid settings are:
+         0 - No change. Use the default autodetection behavior.
+         1 - The device DOES have a permanent menu key; ignore autodetection.
+         2 - The device DOES NOT have a permanent menu key; ignore autodetection. -->
+    <integer name="config_overrideHasPermanentMenuKey">1</integer>
 
   </resources>
