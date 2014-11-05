@@ -33,14 +33,7 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc
 
 # Recovery
-PRODUCT_PACKAGES += \
-    lpm.rc \
-    choice_fn \
-    offmode_charging \
-    offmode_charging_res_images \
-    offmode_charging_warn_res_images \
-    chargeled \
-    init.recovery.qcom.rc
+COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 
 # QC thermald config
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/configs/thermald.conf:system/etc/thermald.conf
