@@ -54,7 +54,6 @@ BOARD_BLUEDROID_VENDOR_CONF := device/htc/m7-common/bluetooth/libbt_vndcfg.txt
 BOARD_BLUETOOTH_USES_HCIATTACH_PROPERTY := false
 
 # Camera
-COMMON_GLOBAL_CFLAGS += -DHTC_CAMERA_HARDWARE
 COMMON_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS
 USE_DEVICE_SPECIFIC_CAMERA := true
 
@@ -68,8 +67,13 @@ BOARD_PROVIDES_LIBRIL := true
 # USB
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
 
+<<<<<<< HEAD
 # We have the new GPS driver
 BOARD_HAVE_NEW_QC_GPS := true
+=======
+# Tuning
+BOARD_HARDWARE_CLASS := device/htc/m7-common/cmhw
+>>>>>>> faa2aee... m7-common: Remove deprecated flags
 
 # Wifi
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
