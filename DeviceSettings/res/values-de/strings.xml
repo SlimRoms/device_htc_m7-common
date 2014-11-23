@@ -25,14 +25,14 @@
   <string name="category_touchscreen_title">Touchscreen</string>
   <string name="logo2menu_title">Logo für Menü</string>
   <string name="logo2menu_switch_title_head">Aktivieren</string>
-  <string name="logo2menu_switch_summary_head">Aktiviert den Bereich über dem HTC-Logo als Hardware-Menü-Taste.</string>
+  <string name="logo2menu_switch_summary_head">Aktiviert den oberen Teil des HTC-Logos als Hardware-Menü-Taste.</string>
   <string name="longtaplogosleep_switch_title_head">Ruhemodus durch langes Tippen</string>
   <string name="longtaplogosleep_switch_summary_head">Wenn aktiviert, wird der Bereich über dem HTC-Logo dafür verwendet das Telefon in den Ruhemodus zu versetzen. Dies überschreibt ebenfalls die System- und Hardware-Tasten, die für das lange Tippen verwendet werden.</string>
   <string name="wake_title">Aufwecken</string>
-  <string name="wake_method_title_head">Aufweck-Methode</string>
-  <string name="wake_method_summary_head">Wählen Sie, welche Touchpad-Aufweck-Methode Sie bevorzugen.</string>
+  <string name="wake_method_title_head">Aufweckmethode</string>
+  <string name="wake_method_summary_head">Wählen Sie, welche Bildschirm-Weckmethode Sie bevorzugen.</string>
   <string name="category_sensors_title">Sensoren</string>
   <string name="proximity_subcat_title">Annäherungssensor</string>
   <string name="proximity_calibration_title">Kalibrierung</string>
-  <string name="proximity_calibration_summary">Setze Kalibrierungswerte. Höhere Werte bedeuten geringere Sensitivität.</string>
+  <string name="proximity_calibration_summary">Kalibrierungswerte festlegen. Höhere Werte bedeuten geringere Empfindlichkeit.</string>
 </resources>

@@ -6,7 +6,7 @@
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
 
-          http://www.apache.org/licenses/LICENSE-2.0
+         http://www.apache.org/licenses/LICENSE-2.0
 
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
@@ -15,10 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string-array name="wake_method_entries">
-    <item>Żaden</item>
-    <item>Przycisk Główny</item>
-    <item>Przycisk z logo</item>
-    <item>Przeciągnięcie nad przyciskami</item>
-  </string-array>
+  <string name="app_name">Gelişmiş ayarlar</string>
+  <string name="defaults_button">Varsayılana sıfırla</string>
+  <string name="vibrator_tuning_title">Titreşim gücü</string>
+  <string name="category_touchscreen_title">Dokunmatik ekran</string>
+  <string name="logo2menu_switch_title_head">Etkinleştir</string>
 </resources>
