@@ -22,4 +22,17 @@
   <string name="vibrator_tuning_title">Intensità vibrazione</string>
   <string name="vibrator_tuning_summary_head">Modifica l\'intensità della vibrazione del feedback aptico</string>
   <string name="vibrator_warning">Valori superiori a %1$d non sono raccomandati</string>
+  <string name="category_touchscreen_title">Touchscreen</string>
+  <string name="logo2menu_title">Menu tramite tasto Logo</string>
+  <string name="logo2menu_switch_title_head">Attiva</string>
+  <string name="logo2menu_switch_summary_head">La parte alta del logo HTC agirà come pulsante hardware per il Menu.</string>
+  <string name="longtaplogosleep_switch_title_head">Standby tramite tasto Logo</string>
+  <string name="longtaplogosleep_switch_summary_head">Se selezionato, il tap prolungato sulla parte alta del logo HTC spegnerà lo schermo. Questa opzione sovrascrive l\'accesso al Menu tramite tasto Logo.</string>
+  <string name="wake_title">Risveglio</string>
+  <string name="wake_method_title_head">Metodo di risveglio</string>
+  <string name="wake_method_summary_head">Seleziona il metodo predefinito per il risveglio.</string>
+  <string name="category_sensors_title">Sensori</string>
+  <string name="proximity_subcat_title">Prossimità</string>
+  <string name="proximity_calibration_title">Calibrazione</string>
+  <string name="proximity_calibration_summary">Imposta il valore di calibrazione. Valori più alti riducono la sensibilità.</string>
 </resources>
