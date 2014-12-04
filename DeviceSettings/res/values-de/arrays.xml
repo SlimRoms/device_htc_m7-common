@@ -17,8 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="wake_method_entries">
     <item>Keine</item>
-    <item>Home Taste</item>
-    <item>Logo button</item>
-    <item>Sweep over buttons</item>
+    <item>Home-Taste</item>
+    <item>Logo-Taste</item>
+    <item>Über Tasten wischen</item>
   </string-array>
 </resources>

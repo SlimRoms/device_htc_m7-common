@@ -16,9 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="wake_method_entries">
-    <item>Nada</item>
-    <item>Botón Inicio</item>
-    <item>Botón Logo</item>
-    <item>Deslizar sobre los botones</item>
+    <item>Nenhum</item>
+    <item>Botão Home</item>
+    <item>Botão do logotipo</item>
+    <item>Deslizar sobre os botões</item>
   </string-array>
 </resources>
