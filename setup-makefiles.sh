@@ -20,9 +20,9 @@ set -e
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
-CM_ROOT="$MY_DIR"/../../..
+SLIM_ROOT="$MY_DIR"/../../..
 
-HELPER="$CM_ROOT"/vendor/cm/build/tools/extract_utils.sh
+HELPER="$SLIM_ROOT"/vendor/slim/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
@@ -30,7 +30,7 @@ fi
 . "$HELPER"
 
 # Initialize the helper for common device
-setup_vendor "$DEVICE_COMMON" "$VENDOR" "$CM_ROOT" true
+setup_vendor "$DEVICE_COMMON" "$VENDOR" "$SLIM_ROOT" true
 
 # Copyright headers and common guards
 write_headers "m7 m7spr m7vzw"
@@ -40,7 +40,7 @@ write_makefiles "$MY_DIR"/common-proprietary-files.txt
 write_footers
 
 # Reinitialize the helper for device
-setup_vendor "$DEVICE" "$VENDOR" "$CM_ROOT"
+setup_vendor "$DEVICE" "$VENDOR" "$SLIM_ROOT"
 
 # Copyright headers and guards
 write_headers
