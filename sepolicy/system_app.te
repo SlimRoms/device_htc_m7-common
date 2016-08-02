@@ -1,0 +1,12 @@
+allow system_app vibeamp_sysfs:file { getattr open read write };
+allow system_app vibeamp_sysfs:dir search;
+allow system_app ps_kadc_sysfs:file { getattr open read write };
+allow system_app ps_kadc_sysfs:dir search;
+allow system_app l2m_2_phase_sysfs:file { getattr open read write };
+allow system_app l2m_2_phase_sysfs:dir search;
+allow system_app home2wake_sysfs:file { getattr open read write };
+allow system_app home2wake_sysfs:dir search;
+allow system_app sweep2wake_sysfs:file { getattr open read write };
+allow system_app sweep2wake_sysfs:dir search;
+allow system_app logo2menu_sysfs:file { getattr open read write };
+allow system_app logo2menu_sysfs:dir search;

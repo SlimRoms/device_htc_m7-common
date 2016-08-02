@@ -19,8 +19,13 @@
 /dev/ttyHSL2                    u:object_r:cir_device:s0
 /system/bin/cir_fw_update       u:object_r:cir_fw_update_exec:s0
 
-# CMHW
+# CMHW and Advanced Device Settings
 /sys/devices/virtual/timed_output/vibrator/voltage_level   u:object_r:vibeamp_sysfs:s0
+/sys/devices/virtual/optical_sensors/proximity/ps_kadc     u:object_r:ps_kadc_sysfs:s0
+/sys/android_touch/l2m_2_phase                             u:object_r:l2m_2_phase_sysfs:s0
+/sys/android_touch/home2wake                               u:object_r:home2wake_sysfs:s0
+/sys/android_touch/sweep2wake                              u:object_r:sweep2wake_sysfs:s0
+/sys/android_touch/logo2menu                               u:object_r:logo2menu_sysfs:s0
 
 # Modem
 /dev/block/mmcblk0p17           u:object_r:modem_efs_partition_device:s0
