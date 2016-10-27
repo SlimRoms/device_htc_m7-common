@@ -17,7 +17,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.cam.hw.version=m7
+    ro.cam.hw.version=m7 \
+    media.stagefright.legacyencoder=true \
+    media.stagefright.less-secure=true
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
