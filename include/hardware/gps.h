@@ -593,6 +593,10 @@ typedef struct {
     float   elevation;
     /** Azimuth of SV in degrees. */
     float   azimuth;
+#if 1
+    /** Placeholder for Samsung ABI compat */
+    int     unknown;
+#endif
 } GpsSvInfo;
 
 typedef struct {
@@ -693,6 +697,10 @@ typedef struct {
     uint16_t tac;
     /** Physical Cell id in LTE (not used in 2G and 3G) */
     uint16_t pcid;
+#if 1
+    /** Placeholder for Samsung ABI compat */
+    uint16_t unknown;
+#endif
 } AGpsRefLocationCellID;
 
 typedef struct {
