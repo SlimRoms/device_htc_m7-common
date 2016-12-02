@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aade967_1a9f4d05",
+        "filename": "include/hardware/gps.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 472,
+      "author": {
+        "id": 1000360
+      },
+      "writtenOn": "2016-12-02T15:00:04Z",
+      "side": 0,
+      "message": "Still need this.",
+      "revId": "8a1862c62ed3272f560aee377d1749c69b1fb664",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aade967_3aa48956",
+        "filename": "include/hardware/gps.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 514,
+      "author": {
+        "id": 1000360
+      },
+      "writtenOn": "2016-12-02T15:00:04Z",
+      "side": 0,
+      "message": "and this one.",
+      "revId": "8a1862c62ed3272f560aee377d1749c69b1fb664",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
+    }
+  ]
+}
